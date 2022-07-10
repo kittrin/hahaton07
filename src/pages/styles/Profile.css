@@ -1,0 +1,60 @@
+@media screen and (max-width: 600px) /* Mobile */ {
+    .profile{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 980px) /* Desktop */ {
+    .profile{
+        width: 40%;
+    }
+}
+.osnova {
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+p{
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0 !important;
+}
+.profile{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ava{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ava img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.exp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ozon {
+    width: 40%;
+    /* margin-top: 20px; */
+    display: inline;
+    margin-right: 10px;
+}
+/**/
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+    background: #cd7f32 !important;
+    border-color: #cd7f32 !important;
+}
+.ant-progress-success-bg, .ant-progress-bg{
+    background-color: #e6c229 !important;
+}

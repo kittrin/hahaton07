@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+.main{
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500 !important;
+}
+
+
+button {
+  background-color: #3AAA35;
+}
+.ant-btn-primary{
+  background: #3AAA35 !important;
+  border-color: #3AAA35 !important;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #3AAA35 !important;
+}
+.saleList {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h5{
+  font-weight: 500 !important;
+  font-size: 16pt;
+  line-height: 24px;
+}
+.cashbackPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ant-menu-horizontal > .ant-menu-submenu > .ant-menu-submenu-title .anticon svg {
+  width: 30px;
+  height: 30px;
+}

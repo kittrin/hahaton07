@@ -1,0 +1,27 @@
+.main_coupons{
+    width: 100vw;
+    background: round url("back.png");
+    background-size: 100%
+}
+.header {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title_header {
+    font-weight: bold;
+    font-size: xx-large;
+    align-items: flex-start;
+    width: 60%;
+    margin-bottom: 10px;
+}
+.description_header {
+    font-weight: normal;
+    align-items: flex-start;
+    font-size: large;
+    width: 60%;
+}

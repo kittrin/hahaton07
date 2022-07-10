@@ -1,0 +1,57 @@
+.cashback_item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #eceae7;
+    border-radius: 5px;
+    margin: 10px;
+}
+/*header*/
+.cashback_header{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cashback_header_img{
+    width: 50%;
+    height: 100%;
+}
+.cashback_header_data{
+    color: #a7a7a7;
+}
+.cashback_sale {
+
+}
+/*body*/
+.cashback_body{
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    border-bottom: 1px solid #eceae7;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+.cashback_body_description{
+
+}
+
+/*footer*/
+.cashback_footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cashback_footer_number{
+    height: 100%;
+    font-size: xx-small !important;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+/*Информация о кэшбеке*/
+
+.infoCash {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #eceae7;
+    margin: 10px;
+    align-items: center;
+}
+.infoCash_img {
+    height: 50%;
+    width: 100%;
+}
+
+.info {
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+}
